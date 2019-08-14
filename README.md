@@ -61,14 +61,14 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[Animator]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/globals.html#animator
-[Axis]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/classes/axis.html
-[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/classes/chartxy.html
-[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/globals.html#colorrgba
-[EllipseSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/classes/ellipseseries.html
-[emptyFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/globals.html#emptyfill
-[FontSettings]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/classes/fontsettings.html
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/classes/solidfill.html
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/classes/solidline.html
-[UIDraggingModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/enums/uidraggingmodes.html
-[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.0/globals.html#uiorigins
+[Animator]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#animator
+[Axis]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/axis.html
+[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/chartxy.html
+[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#colorrgba
+[EllipseSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/ellipseseries.html
+[emptyFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#emptyfill
+[FontSettings]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/fontsettings.html
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidfill.html
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidline.html
+[UIDraggingModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/enums/uidraggingmodes.html
+[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#uiorigins

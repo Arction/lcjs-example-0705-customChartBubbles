@@ -1,4 +1,4 @@
-/**
+/*
  * LightningChartJS example that showcases a extensively customized chart with Bubble-chart.
  */
 // Import LightningChartJS

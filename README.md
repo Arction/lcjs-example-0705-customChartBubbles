@@ -1,4 +1,4 @@
-# Customized chart - Bubbles
+# Customized Chart - Bubbles
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
@@ -14,9 +14,10 @@ The demo can be used as an example or a seed project. Local execution requires t
 
 - The application is available at *http://localhost:8080* in your browser, webpack-dev-server provides hot reload functionality.
 
-### Description
 
-*Also known as a Bubble Series, Bubble Chart, and Bubble Graph*
+## Description
+
+*Also known as a Bubble Series, Bubble Chart and Bubble Graph*
 
 This example shows extensive customization of a Cartesian Chart to create a Bubble Chart using ***EllipseSeries*** as a tool.
 
@@ -26,22 +27,23 @@ This type of series are often used to present financial or statistical data beca
 
 The series typically accepts points in format `{ x: number, y: number, size: number }`.
 
-### API links
 
-* Cartesian chart: [ChartXY][]
-* Axis: [Axis][]
-* Ellipse series: [EllipseSeries][]
-* Font settings: [FontSettings][]
-* RGBA color factory: [ColorRGBA][]
-* Solid FillStyle: [SolidFill][]
-* Solid LineStyle: [SolidLine][]
-* Empty FillStyle: [emptyFill][]
-* UI position origins: [UIOrigins][]
-* UI Dragging modes: [UIDraggingModes][]
-* Animator: [Animator][]
+## API Links
+
+* Cartesian chart: [ChartXY]
+* Axis: [Axis]
+* Ellipse series: [EllipseSeries]
+* Font settings: [FontSettings]
+* RGBA color factory: [ColorRGBA]
+* Solid FillStyle: [SolidFill]
+* Solid LineStyle: [SolidLine]
+* Empty FillStyle: [emptyFill]
+* UI position origins: [UIOrigins]
+* UI Dragging modes: [UIDraggingModes]
+* Animator: [Animator]
 
 
-### Support
+## Support
 
 If you notice an error in the example code, please open an issue on [GitHub][0] repository of the entire example.
 
@@ -53,22 +55,24 @@ If you think you found a bug in the LightningChart JavaScript library, please co
 
 Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@arction.com.
 
-© Arction Ltd 2009-2019. All rights reserved.
-
 [0]: https://github.com/Arction/
 [1]: https://www.arction.com/lightningchart-js-api-documentation/
 [2]: https://www.arction.com
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[Animator]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#animator
-[Axis]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/axis.html
-[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/chartxy.html
-[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#colorrgba
-[EllipseSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/ellipseseries.html
-[emptyFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#emptyfill
-[FontSettings]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/fontsettings.html
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidfill.html
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidline.html
-[UIDraggingModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/enums/uidraggingmodes.html
-[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#uiorigins
+© Arction Ltd 2009-2019. All rights reserved.
+
+
+[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/chartxy.html
+[Axis]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/axis.html
+[EllipseSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/ellipseseries.html
+[FontSettings]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/fontsettings.html
+[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#colorrgba
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidfill.html
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidline.html
+[emptyFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#emptyfill
+[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#uiorigins
+[UIDraggingModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/uidraggingmodes.html
+[Animator]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#animator
+

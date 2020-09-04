@@ -11,14 +11,15 @@ const {
     SolidLine,
     ColorRGBA,
     emptyFill,
-    emptyTick,
     FontSettings,
     AutoCursorModes,
     Animator,
     AnimationEasings,
     UIDraggingModes,
     UIOrigins,
-    ColorPalettes
+    ColorPalettes,
+    AxisTickStrategies,
+    Themes
 } = lcjs
 
 // Custom callback template.
@@ -81,9 +82,8 @@ chart.addUIElement(undefined, { x: chart.uiScale.x, y: axes.right.scale })
 
 // Axis mutator.
 const overrideAxis = (axis) => axis
-    .setTickStyle(emptyTick)
+    .setTickStrategy(AxisTickStrategies.Empty)
     .setTitleMargin(0)
-    .setNibStyle(line => line.setFillStyle(emptyFill))
     .setMouseInteractions(undefined)
 
 // Override default configurations of axes.

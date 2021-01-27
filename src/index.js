@@ -49,7 +49,10 @@ fonts.subTitle = fonts.title.setSize(20)
 const solidFillStyles = forEachIn(colors, (color) => new SolidFill({ color }))
 
 // Create chart with customized settings
-const chart = lightningChart().ChartXY({})
+const chart = lightningChart()
+    .ChartXY({
+        // theme: Themes.dark        
+    })
     .setBackgroundFillStyle(solidFillStyles.background)
     .setChartBackgroundFillStyle(solidFillStyles.graphBackground)
     .setTitle('Custom Styled Chart')

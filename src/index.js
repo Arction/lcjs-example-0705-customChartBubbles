@@ -54,7 +54,7 @@ const chart = lightningChart()
         // theme: Themes.dark        
     })
     .setBackgroundFillStyle(solidFillStyles.background)
-    .setChartBackgroundFillStyle(solidFillStyles.graphBackground)
+    .setSeriesBackgroundFillStyle(solidFillStyles.graphBackground)
     .setTitle('Custom Styled Chart')
     .setTitleFont(fonts.title)
     .setTitleFillStyle(solidFillStyles.title)
@@ -74,12 +74,11 @@ const axes = {
     right: chart.addAxisY(true).setChartInteractions(false)
 }
 
-chart.addUIElement(undefined, { x: chart.uiScale.x, y: axes.right.scale })
-    .setPosition({ x: 50, y: 10 })
-    .setOrigin(UIOrigins.CenterBottom)
-    .setMargin({ bottom: 10 })
+chart.addUIElement(undefined, chart.uiScale)
+    .setPosition({ x: 50, y: 90 })
+    .setOrigin(UIOrigins.Center)
     .setText('- With Bubbles -')
-    .setFont(fonts.subTitle)
+    .setTextFont(fonts.subTitle)
     .setTextFillStyle(solidFillStyles.subTitle)
     .setDraggingMode(UIDraggingModes.notDraggable)
 
@@ -94,9 +93,10 @@ for (const axisPos in axes)
     overrideAxis(axes[axisPos]);
 
 [axes.bottom, axes.left].forEach(axis => axis.setInterval(-100, 100).setScrollStrategy(undefined))
-const bubblePx = {
-    x: axes.bottom.scale.getPixelSize(),
-    y: axes.left.scale.getPixelSize()
+// Ratio between bubble ellipse width / height.
+const bubbleWidthHeightRatio = {
+    x: window.innerHeight / window.innerWidth,
+    y: 1
 }
 
 // Create instance of ellipse series to draw bubbles.
@@ -118,7 +118,7 @@ const sizeArray = []
 
 // Create a single bubble to visualize in specific coordinates and specified size.
 const addBubble = (pos, size) => {
-    const radius = size * 10
+    const radius = size * 2.5
     const borderThickness = 1 + size * 1.0
 
     const color = colors.bubbleFillPalette(Math.round(Math.random() * 99))
@@ -128,8 +128,8 @@ const addBubble = (pos, size) => {
     const figure = ellipseSeries.add({
         x: pos.x,
         y: pos.y,
-        radiusX: radius * bubblePx.x,
-        radiusY: radius * bubblePx.y
+        radiusX: radius * bubbleWidthHeightRatio.x,
+        radiusY: radius * bubbleWidthHeightRatio.y
     })
         .setFillStyle(fillStyle)
         .setStrokeStyle(strokeStyle)

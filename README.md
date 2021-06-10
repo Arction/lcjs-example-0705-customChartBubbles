@@ -1,6 +1,6 @@
-# Customized Chart - Bubbles
+# Customized JavaScript Chart - Bubbles
 
-![Customized Chart - Bubbles](custom.png)
+![Customized JavaScript Chart - Bubbles](custom.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 

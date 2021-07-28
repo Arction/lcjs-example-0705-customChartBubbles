@@ -19,6 +19,7 @@ const {
     UIOrigins,
     ColorPalettes,
     AxisTickStrategies,
+    emptyLine,
     Themes
 } = lcjs
 
@@ -51,7 +52,7 @@ const solidFillStyles = forEachIn(colors, (color) => new SolidFill({ color }))
 // Create chart with customized settings
 const chart = lightningChart()
     .ChartXY({
-        // theme: Themes.dark        
+        // theme: Themes.darkGold        
     })
     .setBackgroundFillStyle(solidFillStyles.background)
     .setSeriesBackgroundFillStyle(solidFillStyles.graphBackground)
@@ -75,12 +76,16 @@ const axes = {
 }
 
 chart.addUIElement(undefined, chart.uiScale)
-    .setPosition({ x: 50, y: 90 })
+    .setPosition({ x: 50, y: 93 })
     .setOrigin(UIOrigins.Center)
     .setText('- With Bubbles -')
     .setTextFont(fonts.subTitle)
     .setTextFillStyle(solidFillStyles.subTitle)
     .setDraggingMode(UIDraggingModes.notDraggable)
+    .setBackground((bg) => bg
+        .setFillStyle(emptyFill)
+        .setStrokeStyle(emptyLine)
+    )
 
 // Axis mutator.
 const overrideAxis = (axis) => axis

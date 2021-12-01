@@ -147,7 +147,7 @@ const addBubble = (pos, size) => {
 
 // Create an event to handle the case when user resizes the window, the bubble will be automatically scaled 
 chart.onResize(() => {
-    for (let i = 0; i <= bubbleMaxCount - 1; i++) {
+    for (let i = 0; i < resizeBubble.length; i++) {
         const newBubble = resizeBubble[i].getDimensions()
         resizeBubble[i].setDimensions({
             x: newBubble.x,

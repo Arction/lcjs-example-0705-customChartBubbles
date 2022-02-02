@@ -66,15 +66,15 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[Cartesian chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/classes/chartxy.html
-[Axis]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/classes/axis.html
-[Ellipse series]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/classes/ellipseseries.html
-[Font settings]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/classes/fontsettings.html
-[RGBA color factory]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/globals.html#colorrgba
-[Solid FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/classes/solidfill.html
-[Solid LineStyle]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/classes/solidline.html
-[Empty FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/globals.html#emptyfill
-[UI position origins]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/globals.html#uiorigins
-[UI Dragging modes]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/enums/uidraggingmodes.html
-[Animator]: https://www.arction.com/lightningchart-js-api-documentation/v3.3.0/globals.html#animator
+[Cartesian chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/chartxy.html
+[Axis]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/axis.html
+[Ellipse series]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/ellipseseries.html
+[Font settings]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/fontsettings.html
+[RGBA color factory]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#colorrgba
+[Solid FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/solidfill.html
+[Solid LineStyle]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/solidline.html
+[Empty FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#emptyfill
+[UI position origins]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#uiorigins
+[UI Dragging modes]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/enums/uidraggingmodes.html
+[Animator]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#animator
 
